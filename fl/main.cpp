@@ -72,38 +72,4 @@ int main( )
 	return 0;
 }
 
-	/*
-	int g;
-	cin >> g;
-	map<string, vector<string>> v = res->GetIp("ip.txt");
-	for (auto p : v) {
-		cout << p.first << ": ";
-		for (auto h : p.second) {
-			cout << h << " ";
-		}
-		cout << endl;
-	}
-
-	while (true) {
-		string hn;
-		cout << "hostname: ";
-		cin >> hn;
-		auto his = res->GetHostNameHistory(hn);
-		for (auto l : his) {
-			cout << l.first << " " << l.second << endl;
-		}
-	}
-	*/
-//	res->GetCSVFile("out.csv");
-
-//	MakeCSVFileDB(con, "out.csv", "BK", "ip");
-//	for (auto p : data) {
-//		cout << p.first << ": ";
-//		for (int i = 0; i < p.second.size(); i++) {
-//			cout << p.second[i] << " ";
-//		}
-//		cout << endl;
-//	}
-
-	//GetHostnameFromIp("79.139.145.9");
-	//GetIpFromHostname("79-139-145-9.dynamic.spd-mgts.ru");
+	
